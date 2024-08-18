@@ -1,8 +1,135 @@
 * {
    margin: 0;
    padding: 0;
- }
+   box-sizing: border-box;
+   font-size: 100%;
+   font-weight: normal;
+   }
+   
+body {
+   /*Flexbox*/
+   display: flex;
+   justify-content: center; /*Выравнивает карточку по центру горизонтально*/
+   align-items: center;/*Выравнивает карточку по центру вертикально*/
+   height: 100vh;
+}
+
+.content {
+   width: 300px;
+   margin: auto;
+   
+}
  
- .card {
-   background-color: gray;
-  }
+.profile-card {
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   min-height: 40vh;
+   padding: 30px;
+   /*border: 1px solid black;*/
+   border-radius: 20px;
+   text-align: center;
+   background-color: #cfcfcf;
+   box-shadow: 4px 4px 10px rgb(0 0 0/ 0.3);
+   background-image: url(https://kartinki.pics/uploads/posts/2022-12/1669927625_kartinkin-net-p-tekstura-podtekov-krasivo-6.jpg);
+   background-size: cover;
+   background-position-y: -120px;
+   background-repeat: no-repeat;
+   
+   }
+  
+.profile-header {
+   /*background-color: lavender;*/
+   background-image: url( );
+   display: flex;
+}
+  
+.profile-img {
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   margin: 0 auto 50px;
+   box-shadow: 0 0 10px rgb(255 255 255/ 0.3)
+   /*background-position: center;*/
+}  
+
+.profile-name {
+   background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 20px;
+   margin: 15px 0;
+   padding: 10px;
+}
+
+.name {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   letter-spacing: 2px;
+}
+
+.id {
+   font-family: 'Open Sans';
+   font-size: 8px;
+   color: rgba(0, 0, 0, 0.7);
+}
+   
+.profile-sns {
+   margin: 0 0 10px;
+   /*background-color: pink;*/
+}
+
+.icon {
+  font-size: 15px;
+  margin: 0 8px;
+  
+}
+
+.icon:hover {
+   fill: red;
+   background-color: white;
+   color: #fff;
+}
+
+.icon:active {
+   color: #fff;
+}
+
+.info {
+   display: flex;
+   font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-s
+erif;
+   flex-grow: 1;
+   padding: 15px 0;
+   /*background-color: yellow;*/
+}
+
+.info_text {
+   font-size: 11px;
+   margin: auto;
+}
+
+.button {
+   padding-top: 10px;
+}
+
+.btn-size {
+   width: 110px;
+   height: 30px;
+   border: none;
+   border-radius: 20px;
+   font-size: 13px;
+   font-weight: 500;
+   margin-top: 10px;
+}
+
+.follow {
+   margin-right: 15px;
+   background-color: #553c76;
+   color: #fff;
+}
+
+.message {
+   background-color: #fff;
+   color: #000;
+   border: 1px solid #000;
+}
