@@ -29,11 +29,11 @@ body {
    /*border: 1px solid black;*/
    border-radius: 20px;
    text-align: center;
-   background-color: #cfcfcf;
+   /*background-color: #cfcfcf;*/
    box-shadow: 4px 4px 10px rgb(0 0 0/ 0.3);
-   background-image: url(https://kartinki.pics/uploads/posts/2022-12/1669927625_kartinkin-net-p-tekstura-podtekov-krasivo-6.jpg);
+  background-image: url(https://downloader.disk.yandex.ru/preview/2ab65341ccef5850b2f6ab2d16066dfa277e91e43749124e050ee4e94d4b6a16/66c3573f/rB1v4ZyuVSYzu3d09B0thAwIdUI1wvUgoxndJqZImcJJbNDJhuNGscnZnnTVuJPlO7x44d_R2MSCVDqTm2HhQQ%3D%3D?uid=0&filename=Profile-card-bg.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048);
    background-size: cover;
-   background-position-y: -120px;
+   /*background-position-y: 30px;*/
    background-repeat: no-repeat;
    
    }
