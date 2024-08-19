@@ -25,30 +25,29 @@ body {
    flex-direction: column;
    width: 300px;
    min-height: 40vh;
-   padding: 30px;
+   padding: 20px 30px 30px;
    /*border: 1px solid black;*/
    border-radius: 20px;
    text-align: center;
-   /*background-color: #cfcfcf;*/
+   background-color: #cfcfcf;
    box-shadow: 4px 4px 10px rgb(0 0 0/ 0.3);
-  background-image: url(https://downloader.disk.yandex.ru/preview/2ab65341ccef5850b2f6ab2d16066dfa277e91e43749124e050ee4e94d4b6a16/66c3573f/rB1v4ZyuVSYzu3d09B0thAwIdUI1wvUgoxndJqZImcJJbNDJhuNGscnZnnTVuJPlO7x44d_R2MSCVDqTm2HhQQ%3D%3D?uid=0&filename=Profile-card-bg.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048);
+   background-image: url(img/Profile-card-bg.png);
    background-size: cover;
-   /*background-position-y: 30px;*/
+   background-position-y: -50px;
    background-repeat: no-repeat;
    
    }
   
 .profile-header {
    /*background-color: lavender;*/
-   background-image: url( );
    display: flex;
 }
   
-.profile-img {
-   width: 80px;
-   height: 80px;
+.profile-img { 
+   width: 75px;
+   height: 75px;
    border-radius: 50%;
-   margin: 0 auto 50px;
+   margin: 0 auto 60px;
    box-shadow: 0 0 10px rgb(255 255 255/ 0.3)
    /*background-position: center;*/
 }  
@@ -56,7 +55,7 @@ body {
 .profile-name {
    background-color: rgba(255, 255, 255, 0.8);
    border-radius: 20px;
-   margin: 15px 0;
+   margin: 12px 0;
    padding: 10px;
 }
 
@@ -74,32 +73,29 @@ body {
 }
    
 .profile-sns {
-   margin: 0 0 10px;
+   margin: 0 0 8px;
    /*background-color: pink;*/
 }
 
 .icon {
   font-size: 15px;
   margin: 0 8px;
+  color: black;
   
 }
 
 .icon:hover {
-   fill: red;
-   background-color: white;
-   color: #fff;
+   color: white;
 }
 
-.icon:active {
-   color: #fff;
-}
+
 
 .info {
    display: flex;
    font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-s
 erif;
    flex-grow: 1;
-   padding: 15px 0;
+   padding: 10px 0;
    /*background-color: yellow;*/
 }
 
