@@ -48,7 +48,7 @@ body {
    height: 75px;
    border-radius: 50%;
    margin: 0 auto 60px;
-   box-shadow: 0 0 10px rgb(255 255 255/ 0.3)
+   /*box-shadow: 0 0 10px rgb(255 255 255/ 0.3)
    /*background-position: center;*/
 }  
 
@@ -124,8 +124,18 @@ erif;
    color: #fff;
 }
 
+.follow:hover {
+   background-color: #432a63;
+   cursor: pointer;
+}
+
 .message {
    background-color: #fff;
-   color: #000;
-   border: 1px solid #000;
+   color: #444;
+   border: 1px solid #f4f4f4;
+}
+
+.message:hover {
+   background-color: #f4f4f4;
+   cursor: pointer;
 }
